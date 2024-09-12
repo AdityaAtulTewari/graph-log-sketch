@@ -100,6 +100,14 @@ jobs:
           CONTAINER_WORKDIR="${{ env.CONTAINER_BUILD_DIR }}" \
           make docker
 
+    - name: Run Smoke Tests
+      timeout-minutes: 5
+      run: |
+        CONTAINER_CMD="make smoke-tests" \
+          IMAGE_NAME="${{ env.IMAGE_NAME }}" \
+          VERSION="${{ env.IMAGE_VERSION }}" \
+          make docker
+
     - name: Run Tests
       timeout-minutes: 15
       run: |

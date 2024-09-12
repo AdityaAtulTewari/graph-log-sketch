@@ -142,6 +142,9 @@ test:
 
 run-tests: test
 
+smoke-tests:
+	@bash scripts/wf4/run.sh
+
 gcovr:
 	@echo "Should be run outside a container"
 	@echo file://${SRC_DIR}/build-sonar/coverage/html
