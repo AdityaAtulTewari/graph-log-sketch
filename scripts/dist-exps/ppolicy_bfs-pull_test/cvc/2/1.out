@@ -1,0 +1,8 @@
+Benchmark bfs-pull algorithm results for batch 0:
+Duration: 2297970 nanoseconds
+Max RSS: 243780 KB
+Cache Misses: 316
+Cache References: 55377
+Instructions: 12524946
+Minor Page Faults: 0
+Major Page Faults: 0

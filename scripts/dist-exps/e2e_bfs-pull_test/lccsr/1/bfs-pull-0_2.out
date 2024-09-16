@@ -1,0 +1,8 @@
+Benchmark results for bfs-pull:
+Duration: 3342929 nanoseconds
+Max RSS: 243780 KB
+Cache Misses: 232
+Cache References: 55329
+Instructions: 12527067
+Minor Page Faults: 0
+Major Page Faults: 0
